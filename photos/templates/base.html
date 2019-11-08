@@ -1,0 +1,23 @@
+{% load bootstrap3 %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  {% if title %}
+  <title>My Gallery - {{title}}</title>
+  {% else %}
+  <title> My Gallery </title>
+  {% endif %}
+
+  {% block styles %}
+  {% bootstrap_css %}
+  {% endblock %}
+</head>
+
+<body>
+  {% include "navbar.html" %}
+</body>
+
+</html>
