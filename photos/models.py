@@ -5,8 +5,8 @@ class Image(models.Model):
     image_name = models.CharField(max_length=30)
     image_description = models.TextField()
     image = models.ImageField(upload_to = 'images/',default='')
-    # image_location = models.ForeignKey(Location)
-    # image_category = models.ForeignKey(Category)
+    image_location = models.ForeignKey('Location',default='')
+    image_category = models.ForeignKey('Category',default='')
 
 
     def save_image(self):
