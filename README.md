@@ -1,11 +1,13 @@
 # Personal Gallery
-#### A personal gallery application that I display my photos for others to see.
+
+#### By [cynthiaoduol](https://github.com/cynthiaoduol)
 
 
 ## Description
-This is an online platform where I display my photos for others to see.
-#### Link to deployed site
-heroku link
+This is an online platform where I display my photos for others to see.A user can click on an image to view the image details. A user can also copy an image link. 
+
+#### Link to live site
+https://cynthiagblog.herokuapp.com/
 
 ## Setup and installations
 * Fork the data onto your own personal repository.
@@ -20,7 +22,7 @@ heroku link
 1. [Python3.6](https://www.python.org/downloads/)
 
 2. [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
-3. [Pip](https://pip.pypa.io/en/stable/installing/)
+3. [pip](https://pip.pypa.io/en/stable/installing/)
 
 #### Technologies used
     - Python3.6
@@ -32,7 +34,7 @@ heroku link
 
 #### Clone the Repo and rename it to suit your needs.
 ```bash
-git clone https://github.com/JamesMutahi/personal-gallery.git
+git clone https://github.com/cynthiaoduol/Gallery.git
 ```
 #### Initialize git and add the remote repository
 ```bash
@@ -84,20 +86,16 @@ python3.6 manage.py runserver
 Open [localhost:8000](http://127.0.0.1:8000/)
 
 
-## Contributing
-Please read this [comprehensive guide](https://opensource.guide/how-to-contribute/) on how to contribute. Pull requests are welcome :-)
-
 ## Bugs
 #### Known bugs
- - N/A
- -If any are experiences kindly [contact me](mutahijames0@gmail.com)
+There are no known bugs at the moment 
 
 
 
 ## Support and contact details
-Contact [James Mutahi](mutahijames0@gmail.com) for further help/support
+Contact [Cynthia Oduol](cynthiaobu940@gmail.com) for further help/support
 
 ### License
 [MIT LICENSE](LICENCE)
 
-Copyright (c)2018 **James Mutahi**
+Copyright (c)2018 **Cynthia Oduol**
