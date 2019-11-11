@@ -7,6 +7,7 @@
 This is an online platform where I display my photos for others to see.A user can click on an image to view the image details. A user can also copy an image link. 
 
 #### Link to live site
+https://cynthiagallery.herokuapp.com/
 
 
 ## Setup and installations
