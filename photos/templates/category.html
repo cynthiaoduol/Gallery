@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid">
+
+    <div class="row">
+      {% if images%}
+        <h2>Found {{ images|length }} for this category {{message}}</h2>
+      {% else %}
+        <h2> Found 0 images for this category</h2>
+      {% endif %}
+  
+    </div>
+  
+    <div class="row">
+  
+    {% if images %}
+      {% for image in images %}
+      <div class="col-md-3 col-sm-3 col-xs-3">
+          <img src="{{image.image.url}}" class="img-responsive img-fluid img-thumbnail" style="width: 100%;height:auto" data-toggle="modal" data-target="#{{ image.id }}" data-backdrop="false"> 
+        </div>
+      {% endfor %}
+    {% endif %}
+    </div>
+  </div>
+{% endblock %}
